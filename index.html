@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staybnb website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="header">
+        <nav id="navbar">
+            <img src="Staybnb-img/images/logo.png" class="logo">
+            <ul class="nav-links">
+                <li><a href="#" class="active">Popular places</a></li>
+                <li><a href="#">Travel outside</a></li>
+                <li><a href="#">Online packages</a></li>
+            </ul>
+            <a href="#" class="registred-btn">Register Now</a>
+            <i class="fas fa-bars" onclick="togglebtn()"></i>
+        </nav>
+        <div class="container">
+            <h1>Find Your Next Stay</h1>
+            <div class="search-bar">
+                <form>
+                    <div class="location-input">
+                        <lebel>Location</lebel>
+                        <input type="text" placeholder="Where are you going?">
+                    </div>
+                    <div>
+                        <lebel>Check in</lebel>
+                        <input type="text" placeholder="Add Date">
+                    </div>
+                    <div>
+                        <lebel>Check out</lebel>
+                        <input type="text" placeholder="Add Date">
+                    </div>
+                    <div>
+                        <lebel>Guest</lebel>
+                        <input type="text" placeholder="Add Guest">
+                    </div>
+                    <button type="submit"><img src="Staybnb-img/images/search.png"></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------exclusive section------------- -->
+    <div class="container">
+        <h1 class="subtitle">Exclusives</h1>
+        <div class="exclusive">
+            <div class="places-stats">
+                <img src="Staybnb-img/images/image-1.png">
+                <span>
+                    <h3>London</h3>
+                    <p>Start @ $400</p>
+                </span>
+            </div>
+            <div class="places-stats">
+                <img src="Staybnb-img/images/image-2.png">
+                <span>
+                    <h3>America</h3>
+                    <p>Start @ $800</p>
+                </span>
+            </div>
+            <div class="places-stats">
+                <img src="Staybnb-img/images/image-3.png">
+                <span>
+                    <h3>Frans</h3>
+                    <p>Start @ $600</p>
+                </span>
+            </div>
+            <div class="places-stats">
+                <img src="Staybnb-img/images/image-4.png">
+                <span>
+                    <h3>Australia</h3>
+                    <p>Start @ $300</p>
+                </span>
+            </div>
+            <div class="places-stats">
+                <img src="Staybnb-img/images/image-5.png">
+                <span>
+                    <h3>Dubai</h3>
+                    <p>Start @ $500</p>
+                </span>
+            </div>
+            <div class="places-stats">
+                <img src="Staybnb-img/images/image-6.png">
+                <span>
+                    <h3>Bangkok</h3>
+                    <p>Start @ $300</p>
+                </span>
+            </div>
+            <div class="places-stats">
+                <img src="Staybnb-img/images/image-7.png">
+                <span>
+                    <h3>Malyasia</h3>
+                    <p>Start @ $750</p>
+                </span>
+            </div>
+            <div class="places-stats">
+                <img src="Staybnb-img/images/image-8.png">
+                <span>
+                    <h3>Italy</h3>
+                    <p>Start @ $500</p>
+                </span>
+            </div>
+            <div class="places-stats">
+                <img src="Staybnb-img/images/image-9.png">
+                <span>
+                    <h3>Germany</h3>
+                    <p>Start @ $900</p>
+                </span>
+            </div>
+            <div class="places-stats">
+                <img src="Staybnb-img/images/image-10.png">
+                <span>
+                    <h3>Turkey</h3>
+                    <p>Start @ $700</p>
+                </span>
+            </div>
+      </div>
+      <!-- ----------trending places---------------- -->
+      
+      <h1 class="subtitle"> Trending Places</h1>
+      <div class="trending">
+        <div class="trending-stats">
+            <img src="Staybnb-img/images/dubai.png">
+            <span>
+                <h3>Dubai</h3>
+            </span>
+        </div>
+        <div class="trending-stats">
+            <img src="Staybnb-img/images/new-york.png">
+            <span><h3>New-york</h3></span>
+        </div>
+        <div class="trending-stats">
+            <img src="Staybnb-img/images/paris.png">
+            <span><h3>Paris</h3></span>
+        </div>
+        <div class="trending-stats">
+            <img src="Staybnb-img/images/new-delhi.png">
+            <span><h3>New-delhi</h3></span>
+        </div>
+      </div>
+<!-- =-------------------call by action------ -->
+      <div class="cta">
+        <h2>Sharing Is Earning Now</h2>
+        <p>Great Opportunity to make money by sharing your extra space.</p>
+         <a href="#" class="cta-btn">Know More</a>
+      </div>
+      <!-- --------------stories-------- -->
+
+      <h1 class="subtitle"> Travellers Stories</h1>
+      <div class="stories">
+        <div class="stories-stats">
+            <img src="Staybnb-img/images/story-1.png">
+            <p>Popular European countries with a budget of just $10,0000</p>
+        </div>
+        <div class="stories-stats">
+            <img src="Staybnb-img/images/story-2.png">
+            <p>Travelled more than 100 countries in less than a year</p>
+        </div>
+        <div class="stories-stats">
+            <img src="Staybnb-img/images/story-3.png">
+            <p>Best Experience you get while travelling to Thailand</p>
+        </div>
+      </div>
+      <a href="#" class="Start-btn"> Start Making Money</a>
+
+      <div class="about-msg">
+        <h2>About Staybnb</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo consectetur non ab reprehenderit consequatur, cum libero, nam, sunt voluptatibus repellat velit ipsam eius dolores ut fugit soluta maxime corrupti inventore illum beatae quaerat quod. Maiores unde inventore magnam illo quia excepturi, libero officia. Atque ad, ea impedit veritatis consequatur voluptas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus vero necessitatibus id provident non porro, quibusdam sequi consectetur harum reprehenderit, nam quidem repudiandae natus assumenda, </p>
+      <!-- -----------footer-------------- -->
+      <div class="footer">
+        <a href="https://facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://facebook.com"><i class="fa-brands fa-square-instagram"></i></i></a>
+        <a href="https://facebook.com"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://facebook.com"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+      <hr>
+      <p>Copyright @ Made by Ankit Rajput</p>
+      </div>
+
+<script>
+
+var navbar = document.getElementById("navbar");
+function togglebtn(){
+    navbar.classList.toggle("hidemenu");
+}
+</script>
+
+
+
+      
+</body>
+</html>
